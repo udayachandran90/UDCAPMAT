@@ -1,0 +1,99 @@
+@server=http://localhost:4004
+
+
+### math
+# @name math_GET
+GET {{server}}/odata/v4/matervice/math
+
+
+
+### math
+# @name math_POST
+POST {{server}}/odata/v4/matervice/math
+Content-Type: application/json
+
+{
+  "ID": "10208025-1381-4e5a-93fe-03cdce4261ee",
+  "material": [
+    {
+      "ID": "8898334b-f600-45d0-8304-9d1db5b42406",
+      "plant": "plant-8898334",
+      "staus": "staus-8898334"
+    },
+    {
+      "ID": "88983357-1eb7-4963-9b5c-f0e3decb7c88",
+      "plant": "plant-8898335",
+      "staus": "staus-8898335"
+    }
+  ],
+  "createdon": "createdon-10208025",
+  "namemat": "namemat-10208025",
+  "materialtype": "materialtype-10208025"
+}
+
+
+### math
+# @name math_PATCH
+PATCH {{server}}/odata/v4/matervice/math/10208025-1381-4e5a-93fe-03cdce4261ee
+Content-Type: application/json
+
+{
+  "ID": "10208025-1381-4e5a-93fe-03cdce4261ee",
+  "material": [
+    {
+      "ID": "8898334b-f600-45d0-8304-9d1db5b42406",
+      "plant": "plant-8898334",
+      "staus": "staus-8898334"
+    },
+    {
+      "ID": "88983357-1eb7-4963-9b5c-f0e3decb7c88",
+      "plant": "plant-8898335",
+      "staus": "staus-8898335"
+    }
+  ],
+  "createdon": "createdon-10208025",
+  "namemat": "namemat-10208025",
+  "materialtype": "materialtype-10208025"
+}
+
+
+### math
+# @name math_DELETE
+DELETE {{server}}/odata/v4/matervice/math/10208025-1381-4e5a-93fe-03cdce4261ee
+Content-Type: application/json
+
+
+### mati
+# @name mati_GET
+GET {{server}}/odata/v4/matervice/mati
+
+
+
+### mati
+# @name mati_POST
+POST {{server}}/odata/v4/matervice/mati
+Content-Type: application/json
+
+{
+  "ID": "8898334b-f600-45d0-8304-9d1db5b42406",
+  "plant": "plant-8898334",
+  "staus": "staus-8898334"
+}
+
+
+### mati
+# @name mati_PATCH
+PATCH {{server}}/odata/v4/matervice/mati/8898334b-f600-45d0-8304-9d1db5b42406
+Content-Type: application/json
+
+{
+  "ID": "8898334b-f600-45d0-8304-9d1db5b42406",
+  "plant": "plant-8898334",
+  "staus": "staus-8898334"
+}
+
+
+### mati
+# @name mati_DELETE
+DELETE {{server}}/odata/v4/matervice/mati/8898334b-f600-45d0-8304-9d1db5b42406
+Content-Type: application/json
