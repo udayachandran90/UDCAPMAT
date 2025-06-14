@@ -1,0 +1,101 @@
+@server=http://localhost:4004
+
+
+### math
+# @name math_GET
+GET {{server}}/odata/v4/matservice/math
+
+
+
+### math
+# @name math_POST
+POST {{server}}/odata/v4/matservice/math
+Content-Type: application/json
+
+{
+  "ID": "21141604-c194-4ea1-8b1a-7c8fdb78d5d7",
+  "material": "material-21141604",
+  "createdon": "createdon-21141604",
+  "namemat": "namemat-21141604",
+  "materialtype": "materialtype-21141604",
+  "matdesc": [
+    {
+      "ID": "80547841-fdaa-4b89-9277-02b40fb3bd99",
+      "plant": "plant-8054784",
+      "staus": "staus-8054784"
+    },
+    {
+      "ID": "8054785a-b411-4b80-81a8-862555835752",
+      "plant": "plant-8054785",
+      "staus": "staus-8054785"
+    }
+  ]
+}
+
+
+### math
+# @name math_PATCH
+PATCH {{server}}/odata/v4/matservice/math/21141604-c194-4ea1-8b1a-7c8fdb78d5d7
+Content-Type: application/json
+
+{
+  "ID": "21141604-c194-4ea1-8b1a-7c8fdb78d5d7",
+  "material": "material-21141604",
+  "createdon": "createdon-21141604",
+  "namemat": "namemat-21141604",
+  "materialtype": "materialtype-21141604",
+  "matdesc": [
+    {
+      "ID": "80547841-fdaa-4b89-9277-02b40fb3bd99",
+      "plant": "plant-8054784",
+      "staus": "staus-8054784"
+    },
+    {
+      "ID": "8054785a-b411-4b80-81a8-862555835752",
+      "plant": "plant-8054785",
+      "staus": "staus-8054785"
+    }
+  ]
+}
+
+
+### math
+# @name math_DELETE
+DELETE {{server}}/odata/v4/matservice/math/21141604-c194-4ea1-8b1a-7c8fdb78d5d7
+Content-Type: application/json
+
+
+### mati
+# @name mati_GET
+GET {{server}}/odata/v4/matservice/mati
+
+
+
+### mati
+# @name mati_POST
+POST {{server}}/odata/v4/matservice/mati
+Content-Type: application/json
+
+{
+  "ID": "80547841-fdaa-4b89-9277-02b40fb3bd99",
+  "plant": "plant-8054784",
+  "staus": "staus-8054784"
+}
+
+
+### mati
+# @name mati_PATCH
+PATCH {{server}}/odata/v4/matservice/mati/80547841-fdaa-4b89-9277-02b40fb3bd99
+Content-Type: application/json
+
+{
+  "ID": "80547841-fdaa-4b89-9277-02b40fb3bd99",
+  "plant": "plant-8054784",
+  "staus": "staus-8054784"
+}
+
+
+### mati
+# @name mati_DELETE
+DELETE {{server}}/odata/v4/matservice/mati/80547841-fdaa-4b89-9277-02b40fb3bd99
+Content-Type: application/json

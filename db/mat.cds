@@ -3,15 +3,16 @@ using { cuid  } from '@sap/cds/common';
 
 
 entity mathead : cuid {
-    material : String; // Composition of many matplant on material.material = $self;
+    material : String @mandatory @title : '{i18n>Material No}'; 
     createdon: String;
     namemat: String;
-    materialtype: String
+    materialtype: String;
+    matdesc : Composition of many matplant on matdesc.material = $self;
 }
 
 entity matplant : cuid {
-    material : Association to mathead;
+    material : Association to mathead @title : '{i18n>Material No}';
     plant: String;
-    staus: String
+    staus: String @title : '{i18n>Material Status}'; 
     
 }

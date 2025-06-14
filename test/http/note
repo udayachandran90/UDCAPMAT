@@ -1,0 +1,4 @@
+Commands to use.
+To compile - cds compile db/schema -2 sql
+To run the project - cds watch/cds w.
+To add http - cds add http
