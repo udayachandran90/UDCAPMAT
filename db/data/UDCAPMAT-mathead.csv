@@ -1,6 +1,6 @@
-ID,material,createdon,namemat,materialtype
-10,100,10.06.2025,Bottle100,materialtype-15819135
-11,101,10.06.2025,Bottle101,materialtype-15819136
-12,102,10.06.2025,Bottle102,materialtype-15819137
-13,103,10.06.2025,Bottle103,materialtype-15819138
-14,104,10.06.2025,Bottle104,materialtype-15819139
+ID,material,createdon,namemat,matemail,matphone,materialtype
+10,100,10.06.2025,Bottle100,abc@gmail.com,123456,materialtype-15819135
+11,101,10.06.2025,Bottle101,vngh@gmail.com,984948,materialtype-15819136
+12,102,10.06.2025,Bottle102,jghgk@gmail.com,9583932,materialtype-15819137
+13,103,10.06.2025,Bottle103,kgjgk@gmail.com,585404,materialtype-15819138
+14,104,10.06.2025,Bottle104,jdfjfo@gmail.com,2343240,materialtype-15819139
