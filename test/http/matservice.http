@@ -15,8 +15,10 @@ Content-Type: application/json
 {
   "ID": "21141604-c194-4ea1-8b1a-7c8fdb78d5d7",
   "material": "material-21141604",
-  "createdon": "createdon-21141604",
+  "createdon": "20250620",
   "namemat": "namemat-21141604",
+  "matemail": "udaya90@gmail.com",
+  "matphone": "9175265885",
   "materialtype": "materialtype-21141604",
   "matdesc": [
     {
